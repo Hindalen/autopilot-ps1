@@ -1,0 +1,1 @@
+md c:\HWID; Set-Location c:\HWID; Set-ExecutionPolicy Unrestricted -Force; Install-Script -Name Get-WindowsAutopilotInfo -Force;Get-WindowsAutopilotInfo.ps1 -OutputFile "$env:computername AutopilotHWID.csv";explorer C:\HWID\ 
